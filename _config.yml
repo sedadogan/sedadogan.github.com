@@ -3,7 +3,7 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 pygments: true
-url: sedadogan.github.com
+url: http://sedadogan.github.com
 exclude:
         - Rakefile
         - Makefile
