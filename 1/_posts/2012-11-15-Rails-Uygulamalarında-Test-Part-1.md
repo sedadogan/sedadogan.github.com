@@ -1,6 +1,9 @@
 ---
 layout: post
-title:   1) Rails Uygulamalarında Neden Test Yazılır?
+title:  Rails Uygulamalarında Test-PART 1
+---
+---
+  1) Rails Uygulamalarında Neden Test Yazılır?
 ---
 Maddeler halinde yazacak olursak;
   Rails uygulamalarında test işimizi kolaylaştırır.Test kısmı modelleme ve kontrolürler oluşturulurken arka planda iskelet kodu üretir.
