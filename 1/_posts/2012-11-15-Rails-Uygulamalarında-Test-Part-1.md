@@ -14,5 +14,6 @@ Maddeler halinde yazacak olursak;
    - Rails testleri ile tarayıcı isteklerinin benzetimini yapabiliriz. Böylece tarayıcı aracılığıyla test etmek zorunda kalmadan kodlarımızın tepkisini test edebiliriz. 
 
   2) Teste Giriş
+---
 
   
