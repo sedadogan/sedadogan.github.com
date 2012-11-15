@@ -21,7 +21,7 @@ etkileşimlidir.Bunun için Rails testleri içinde bir veritabanına ihtiyacım�
 
 testleri yazabilmemiz için bir veritabanı hazırlamalı ve örnek verilerle doldurmamız gerekir.
 
-	2.1) 3 Bölümden Oluşan Rails Uygulamaları
+  2.1) 3 Bölümden Oluşan Rails Uygulamaları
 ---
 Oluşturacağımız her Rails uygulamasının 3 ayağı vardır.
 
