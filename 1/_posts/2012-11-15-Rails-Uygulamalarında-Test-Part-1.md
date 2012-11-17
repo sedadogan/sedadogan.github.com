@@ -30,6 +30,10 @@ bölümden oluşur.Bunu kurarak, testin üretim aşamasında, bu ortamda veri de
 Eğer test kısmının sonuna geldiğimizde bazı olabilecek sebeplerden ötürü veritabanı yoksa veritabanı içinde tanımlanan özelliklere göre onu 
 yeniden oluşturabiliriz.Ve bunu da db:test:prepare diyerek yapabiliriz.
 
+  2.2) Rails Testi İçin Yapılması Gereken Ayarlar
+---
+
+
 
 
 
