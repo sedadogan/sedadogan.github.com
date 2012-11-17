@@ -16,4 +16,3 @@ Yukarıdaki komutları konsolunuza yazdıktan sonra;
      $ sudo apt-get install zenity ```
 
 bu iki satırıda yazın.Sonra Alt-F2 den scrr2 yi çalıştırın. Biraz bekleyin ekranda istediğiniz görüntüyü aldıktan sonra birşey yapmadan yine bekleyin size linki gelecektir :)
----
