@@ -253,7 +253,9 @@ tanımlamak için kullanılır.</td>
 <td>assert_valid(record)</td>
 
 
-<td>Geçmiş kayıtların aktif kayıt standartlarına göre geçerli durumda olmasını kontrol eder eğer değilse hata mesajı döndürür.</td>
+<td>Geçmiş kayıtların aktif kayıt standartlarına göre geçerli durumda olmasını kontrol eder eğer 
+
+değilse hata mesajı döndürür.</td>
 
 
 </tr>
@@ -277,7 +279,9 @@ tanımlamak için kullanılır.</td>
 <td>assert_no_difference(expressions, message = nil, &block)</td>
 
 
-<td>Bir ifadenin sayısal sonucu değerlendirilmeden önce bloktan çağırılır ve daha önce bu ifade de değişiklik yapılmadığını onaylar.</td>
+<td>Bir ifadenin sayısal sonucu değerlendirilmeden önce bloktan çağırılır ve daha önce bu ifade 
+
+de değişiklik yapılmadığını onaylar.</td>
 
 
 </tr>
@@ -289,7 +293,9 @@ tanımlamak için kullanılır.</td>
 <td>assert_recognizes(expected_options, path, extras={}, message=nil)</td>
 
 
-<td>Verilen yol tam anlamıyla ele alınır ve ayrıştırılır, temelde bu expected_options tarafından verilen Rails 'de tanımlanan bir yoldur.</td>
+<td>Verilen yol tam anlamıyla ele alınır ve ayrıştırılır, temelde bu expected_options tarafından 
+
+verilen Rails 'de tanımlanan bir yoldur.</td>
 
 
 </tr>
@@ -301,9 +307,9 @@ tanımlamak için kullanılır.</td>
 <td>assert_generates(expected_path, options, defaults={}, extras = {}, message=nil)</td>
 
 
-<td>Bu sağlanılan seçeneklerin bir yol oluşturmak için kullanılacağını belirtir.Bu assert_recognizes 
+<td>Bu sağlanılan seçeneklerin bir yol oluşturmak için kullanılacağını belirtir.Bu 
 
-'in tersidir.Ek parametre değerlerinin bir sorgu dizesi olacağını belirtir.</td>
+assert_recognizes'in tersidir.Ek parametre değerlerinin bir sorgu dizesi olacağını belirtir.</td>
 
 
 </tr>
@@ -315,9 +321,9 @@ tanımlamak için kullanılır.</td>
 <td>assert_response(type, message = nil)</td>
 
 
-<td>Yanıtı belirli bir durum kodu ile belirtir. success, redirect, missing, error olmak üzere 4 tür yanıt verir ve bunları durum kodları ile 
+<td>Yanıtı belirli bir durum kodu ile belirtir. success, redirect, missing, error olmak üzere 4 tür 
 
-belirtir.</td>
+yanıt verir ve bunları durum kodları ile belirtir.</td>
 
 
 </tr>
@@ -329,7 +335,9 @@ belirtir.</td>
 <td>assert_redirected_to(options = {}, message=nil)</td>
 
 
-<td>Yeniden yönlendirme seçeneklerinin, son eylem olarak adlandırılan yönlendirme ile eşleştiğini belirtir.</td>
+<td>Yeniden yönlendirme seçeneklerinin, son eylem olarak adlandırılan yönlendirme ile 
+
+eşleştiğini belirtir.</td>
 
 
 </tr>
