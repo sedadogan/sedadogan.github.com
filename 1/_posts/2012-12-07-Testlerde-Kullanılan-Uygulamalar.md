@@ -4,241 +4,85 @@ title:  Testlerde Kullanılan Uygulamalar ve Amaçları
 ---
 ## 3.4) Mevcut Uygulamalar ve Amaçları
 
-  <table>
-
-
-<tr>
-
-
-<td>assert(boolean, [msg])</td>
-
-
-<td>Sonucu değerlendirir.Bu yöntem program geliştirme esnasında mantık hatalarını 
-
-
-tanımlamak için kullanılır.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_equal(obj1, obj2, [msg])</td>
-
-
-<td>Obj1 ile Obj2 eşit olmalıdır.Bu eşitliği teyit eder.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_not_equal(obj1, obj2, [msg])</td>
-
-
-<td>Obj1 ile Obj2 eşit olmadığını belirtir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_same(obj1, obj2, [msg])</td>
-
-
-<td>Eğer iki nesne aynı kimliğe sahip ise aynıdır.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_not_same(obj1, obj2, [msg])</td>
-
-
-<td>İki nesne aynı değildir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_nil(obj, [msg])</td>
-
-
-<td>Obj = nil olması beklenir. Obje nil olmayınca başarısızdır.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_not_nil(obj, [msg])</td>
-
-
-<td>Obj 'nin nil olmadığını belirtir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_match(regexp, string, [msg])</td>
-
-
-<td>Bir dize ile düzenli ifaenin eşleşmesini sağlar.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_no_match(regexp, string, [msg])</td>
-
-
-<td>Bir dize ile bir düzenli ifade eşleşmesi olmadığını belirtir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_in_delta(expecting, actual, delta, [msg])</td>
-
-
-<td>Beklenen değerin ve gerçek değerin deltadan fazla farkı olmadığını belirtir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_throws(symbol, [msg]) {block}</td>
-
-
-<td>Verilen sembolü bloğa atar.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_raise(exception1, exception2, ...) {block}</td>
-
-
-<td>Testlerde verilen istisnaları bloklarda tutmaya yarar.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_nothing_raised(exception1, exception2, ...) {block}</td>
-
-
-<td>Testlerde verilen istisnalardan hiçbiri bloklara yerleştirilmez.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_instance_of(class, obj, [msg])</td>
-
-
-<td>Verilen objenin, verilen sınıfın bir örneği olduğunu belirtir.Değilse başarısız.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_kind_of(class, obj, [msg])</td>
-
-
-<td>Verilen objenin, verilen sınıfın bir türü olmadığı sürece başarısız.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_respond_to(obj, symbol, [msg])</td>
-
-
-<td>Verilen nesnenin symbol olarak adlandırılan bir yöntemi olduğunu belirtir.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_operator(obj1, operator, obj2, [msg])</td>
-
-
-<td>Operator kullanılarak obj1 ile obj2 karşılaştırılır.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>assert_send(array, [msg])</td>
-
-
-<td>Burada array bir mesaj,alıcı ve değişkendir.Gönderme işlemi, gerçek bir değeri döndürür ise başarılıdır.</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>flunk([msg])</td>
-
-
-<td>Başarısız durum belirtir.</td>
-
-
-</tr>
-
-
-  </table>
+<table>
+  <tr>
+    <td>assert(boolean, [msg])</td>
+    <td>Sonucu değerlendirir.Bu yöntem program geliştirme esnasında mantık hatalarını tanımlamak için kullanılır.</td>
+  </tr>
+  <tr>
+    <td>assert_equal(obj1, obj2, [msg])</td>
+    <td>Obj1 ile Obj2 eşit olmalıdır.Bu eşitliği teyit eder.</td>
+  </tr>
+  <tr>
+    <td>assert_not_equal(obj1, obj2, [msg])</td>
+    <td>Obj1 ile Obj2 eşit olmadığını belirtir.</td>
+  </tr>
+  <tr>
+    <td>assert_same(obj1, obj2, [msg])</td>
+    <td>Eğer iki nesne aynı kimliğe sahip ise aynıdır.</td>
+  </tr>
+  <tr>
+    <td>assert_not_same(obj1, obj2, [msg])</td>
+    <td>İki nesne aynı değildir.</td>
+  </tr>
+  <tr>
+    <td>assert_nil(obj, [msg])</td>
+    <td>Obj = nil olması beklenir. Obje nil olmayınca başarısızdır.</td>
+  </tr>
+  <tr>
+    <td>assert_not_nil(obj, [msg])</td>
+    <td>Obj 'nin nil olmadığını belirtir.</td>
+  </tr>
+  <tr>
+    <td>assert_match(regexp, string, [msg])</td>
+    <td>Bir dize ile düzenli ifaenin eşleşmesini sağlar.</td>
+  </tr>
+  <tr>
+    <td>assert_no_match(regexp, string, [msg])</td>
+    <td>Bir dize ile bir düzenli ifade eşleşmesi olmadığını belirtir.</td>
+  </tr>
+  <tr>
+    <td>assert_in_delta(expecting, actual, delta, [msg])</td>
+    <td>Beklenen değerin ve gerçek değerin deltadan fazla farkı olmadığını belirtir.</td>
+  </tr>
+  <tr>
+    <td>assert_throws(symbol, [msg]) {block}</td>
+    <td>Verilen sembolü bloğa atar.</td>
+  </tr>
+  <tr>
+    <td>assert_raise(exception1, exception2, ...) {block}</td>
+    <td>Testlerde verilen istisnaları bloklarda tutmaya yarar.</td>
+  </tr>
+  <tr>
+    <td>assert_nothing_raised(exception1, exception2, ...) {block}</td>
+    <td>Testlerde verilen istisnalardan hiçbiri bloklara yerleştirilmez.</td>
+  </tr>
+  <tr>
+    <td>assert_instance_of(class, obj, [msg])</td>
+    <td>Verilen objenin, verilen sınıfın bir örneği olduğunu belirtir.Değilse başarısız.</td>
+  </tr>
+  <tr>
+    <td>assert_kind_of(class, obj, [msg])</td>
+    <td>Verilen objenin, verilen sınıfın bir türü olmadığı sürece başarısız.</td>
+  </tr>
+  <tr>
+    <td>assert_respond_to(obj, symbol, [msg])</td>
+    <td>Verilen nesnenin symbol olarak adlandırılan bir yöntemi olduğunu belirtir.</td>
+  </tr>
+  <tr>
+    <td>assert_operator(obj1, operator, obj2, [msg])</td>
+    <td>Operator kullanılarak obj1 ile obj2 karşılaştırılır.</td>
+  </tr>
+  <tr>
+    <td>assert_send(array, [msg])</td>
+    <td>Burada array bir mesaj,alıcı ve değişkendir.Gönderme işlemi, gerçek bir değeri döndürür ise başarılıdır.</td>
+  </tr>
+  <tr>
+    <td>flunk([msg])</td>
+    <td>Başarısız durum belirtir.</td>
+  </tr>
+
+</table>
 
 
 ## 3.5) Özel Rails Uygulamaları ve Amaçları
