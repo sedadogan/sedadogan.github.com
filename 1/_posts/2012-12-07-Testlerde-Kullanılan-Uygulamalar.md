@@ -3,6 +3,7 @@ layout: post
 title:  Testlerde Kullanılan Uygulamalar ve Amaçları
 ---
 ## 3.4) Mevcut Uygulamalar ve Amaçları
+
 <table>
 <tr>
 <td>assert(boolean, [msg])</td>
@@ -83,6 +84,7 @@ title:  Testlerde Kullanılan Uygulamalar ve Amaçları
 </table>
 
 ## 3.5) Özel Rails Uygulamaları ve Amaçları
+
 <table>
 <tr>
 <td>assert_valid(record)</td>
