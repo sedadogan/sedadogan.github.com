@@ -4,7 +4,7 @@ title:  Testlerde Kullanılan Uygulamalar ve Amaçları
 ---
 ## 3.4) Mevcut Uygulamalar ve Amaçları
 
-<table>
+  <table>
 
 
 <tr>
@@ -238,13 +238,13 @@ tanımlamak için kullanılır.</td>
 </tr>
 
 
-</table>
+  </table>
 
 
 ## 3.5) Özel Rails Uygulamaları ve Amaçları
 
 
-<table>
+  <table>
 
 
 <tr>
@@ -355,4 +355,4 @@ eşleştiğini belirtir.</td>
 </tr>
 
 
-</table>
+  </table>
