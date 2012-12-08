@@ -307,8 +307,8 @@ Bir hata raporunun nasıl olduğunu görmek istiyorsak;
 
 Not: Her test metodu uygulamasında, bir hata veya onaylama işlemi hatası aldığında en kısa sürede durur ve test paketi sonraki yöntem ile devam eder. Bütün test yöntemleri alfabetik sıraya göre yürütülür.
 	
-##Yararlanılan Kaynak
+**Yararlanılan Kaynak**
 
-	[Ruby on Rails](http://guides.rubyonrails.org/)
+[Ruby on Rails](http://guides.rubyonrails.org/)
 	
  

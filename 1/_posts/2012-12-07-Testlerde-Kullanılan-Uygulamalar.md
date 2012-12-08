@@ -146,3 +146,7 @@ title:  Testlerde Kullanılan Uygulamalar ve Amaçları
     <td>Bu, uygun bir şablon dosyası ile işlendiğini belirtir.</td>
   </tr>
 </table>
+
+**Yararlanılan Kaynak**
+
+[Ruby on Rails](http://guides.rubyonrails.org/)
