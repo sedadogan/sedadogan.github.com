@@ -127,8 +127,13 @@ Diğer şeylerin yanı sıra bir kaynak için Rails scaffold kullandığımızda
 Bu satırı yazdığımızda projemizde test dosyaları oluşmaktadır. test/unit/post_test.rb 'nin içeriği şöyle olur;
 
 	require 'test_helper'
- 	class P
-	......
+ 
+	class PostTest < ActiveSupport>::TestCase
+  	  # Replace this with your real tests.
+  	  test "the truth" do
+            assert true
+          end
+        end
 
 Satır incelemesi yapmak, Rails testinin kod ve terminolojisini anlamada bize yardımcı olur.
 	
@@ -136,7 +141,7 @@ Satır incelemesi yapmak, Rails testinin kod ve terminolojisini anlamada bize ya
 
 Bilindiği gibi, 'test_helper.rb' dosyası bizim testlerimizi çalıştırabilmemiz için gerekli yapılandırmaları içerir. Böylece bu dosyaya eklenen herhangi bir yöntem, içerdiği testler de dahil tüm testler için kullanılabilir.
 
-	```class PostTest < ActiveSupport>::TestCase ```
+	class PostTest < ActiveSupport>::TestCase 
 
 PostTest sınıfı burada bir TestCase tanımlar çünkü; bu TestCase ActiveSupport 'tan miras alır(devralır).
 Test:Unit test durumunda tanımlanmış, 'test'(küçük harf duyarlı) ile başlayan herhangi yöntem bir testtir. Bundan dolayı 'test_password', 'test_valid_password' ve 'testValidPassword' gibi tüm test isimleri 'TestCase' çalıştığında otomatik olarak çalışır. 
@@ -169,8 +174,10 @@ Her test bir veya birden fazla onaylama içerir. Test tüm onaylardan başarıl�
 ---
 Testlerimizin çalışması için önce, mevcut bir test veritabanı bulunup bulunmadığını kontrol etmeliyiz. Bunun için aşağıdaki komutlar kullanılır:
 
-	$ rake db:migrate     #Burada ilk migrate döner, bir sonraki geçerli değildir. Yani bizim ürün tablomuz mahvolabilir.Bu yüzden
-ilk db:test:prepare çalıştırmak mantıklıdır.
+	$ rake db:migrate
+     
+Burada ilk migrate döner, bir sonraki geçerli değildir. Yani bizim ürün tablomuz mahvolabilir.Bu yüzden ilk db:test:prepare çalıştırmak mantıklıdır.
+
 	...
 	$ rake db:test:load   #Bu satır ile test veritabanı yeniden oluşturulur.
 
@@ -186,8 +193,7 @@ Not: Eğer db/shema.rb yoksa db:test:prepare eror vererek bize hata durumunu bil
    - rake db:test:prepare ; Bekleyen migrate ve test şemasının kontrolü için
    - rake db:test:purge ; veri tabanını boşaltmak için kullanılır.
 
-* rake --tasks-- describe
-satırını çalıştırarak tüm rake 'lere ve bunların görevlerine açıklamaları ile birlikte ulaşabiliriz.
+'rake --tasks-- describe' satırını çalıştırarak tüm rake 'lere ve bunların görevlerine açıklamaları ile birlikte ulaşabiliriz.
 
   3.2) Testlerin Çalıştırılması
 ---
@@ -298,4 +304,8 @@ Bir hata raporunun nasıl olduğunu görmek istiyorsak;
 Çıktıdaki 'E' ye dikkat edecek olursak bu bir hata göstergesidir.
 
 Not: Her test metodu uygulamasında, bir hata veya onaylama işlemi hatası aldığında en kısa sürede durur ve test paketi sonraki yöntem ile devam eder. Bütün test yöntemleri alfabetik sıraya göre yürütülür.
+	
+##Yararlanılan Kaynak
+	<a href="http://guides.rubyonrails.org/index.html">RubyonRails</a>
+	
  
