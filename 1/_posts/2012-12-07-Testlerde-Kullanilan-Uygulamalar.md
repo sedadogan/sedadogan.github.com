@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Testlerde Kullanılan Uygulamalar ve Amaçları
+title:  Testlerde Kullanilan Uygulamalar ve Amaçlari
 ---
 ## 3.4) Mevcut Uygulamalar ve Amaçları
 

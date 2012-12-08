@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rails Uygulamalarında Test - PART 1
+title:  Rails Uygulamalarinda Test - PART 1
 ---
 
   1) Rails Uygulamalarında Neden Test Yazılır?
