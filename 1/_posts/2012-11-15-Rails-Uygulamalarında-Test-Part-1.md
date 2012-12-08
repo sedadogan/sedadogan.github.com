@@ -187,6 +187,7 @@ Not: Eğer db/shema.rb yoksa db:test:prepare eror vererek bize hata durumunu bil
 
   3.1.1) Test Uygulamalarının Hazırlanmasında Rake 'in Görevi
 ---
+
    - rake db:test:clone ; Geçerli olan veritabanı şemasında bir test veritabanı oluşturmak için
    - rake db:test:clone_structure ; Test veritabanının gelişme yapısının yeniden oluşturulması için
    - rake db:test:load ; shema.rb 'den gelen test veritanını oluşturmak için
@@ -306,6 +307,7 @@ Bir hata raporunun nasıl olduğunu görmek istiyorsak;
 Not: Her test metodu uygulamasında, bir hata veya onaylama işlemi hatası aldığında en kısa sürede durur ve test paketi sonraki yöntem ile devam eder. Bütün test yöntemleri alfabetik sıraya göre yürütülür.
 	
 ##Yararlanılan Kaynak
+
 	<a href="http://guides.rubyonrails.org/index.html">RubyonRails</a>
 	
  
