@@ -309,6 +309,6 @@ Not: Her test metodu uygulamasında, bir hata veya onaylama işlemi hatası ald�
 	
 ##Yararlanılan Kaynak
 
-	<a href="http://guides.rubyonrails.org/">Ruby on Rails</a>
+	[Ruby on Rails](http://guides.rubyonrails.org/)
 	
  
